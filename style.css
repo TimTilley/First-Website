@@ -1,12 +1,26 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/Roboto/Roboto-Regular.ttf);
+}
+
 body {
     background-color: blueviolet;
     display: flex;
     flex-flow:wrap;
     justify-content: center;
+    font-family: Roboto;
+    background-color: #1F2937;
+    margin:0;
 }
+
+/* h1 {
+    font: 48px, 800, #F9FAF8;
+    
+} */
 
 header {
     background-color: #1F2937;
+    
     color: white;
     padding: 0;
     margin: 0 auto;
@@ -23,6 +37,12 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    font: 18px #F9FAF8;
+}
+
+.center {
+   
+    text-align: center;
 }
 
 
@@ -34,6 +54,7 @@ ul {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-bottom:100px;
     
 }
 
@@ -42,25 +63,49 @@ ul {
     flex-flow: column wrap;
     justify-content: center;
     align-items: flex-start;
-    background-color: aquamarine;
+    background-color: #1F2937;
+    
     width: 500px;
-    height: fit-content;
+    
     margin: 30px;
     
+}
+
+.container > p {
+    font: 18px #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 24px;
+    font-weight: bold;
+    border: none;
+}
+
+.firstsection > img {
+    width: 20%;
+    height: 40%;
 }
 .secondsection {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    background-color: #F9FAF8;
+    padding: 50px;
 }
 
 h2 {
     align-self:center;
+    font-family: Roboto;
+    color: black;
+    font-size: 40px
 }
 .item {
     display: flex;
-    background-color: blue;
+    background-color: #F9FAF8;
     flex-direction: column;
     align-items: center;
     
@@ -72,37 +117,64 @@ h2 {
 
 .koala {
     width: 70%;
+    border: 3px solid rgb(132, 132, 247);
+    border-radius: 8px;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
     align-self: center;
-   
+    background-color: #F9FAF8;
     width: 100%;
+    padding-top:0
 
 }
 
 .thirdsection {
     display: flex;
     flex-direction: column;
-    align-items: center;;
+    align-items: center;
     flex-wrap: wrap;
     flex-basis: 100%;
+    background-color: #E5E7EB;
+    padding: 100px;
 }
+
 
 .blue-box {
     flex-basis: 100%;
     display: flex;
     justify-content: center;
-    background-color: blue;
-    margin:0 500px;
+    background-color:#F9FAF8;
+    padding: 100px;
 }
 
 .fourthsection {
     display: flex;
-    flex-basis: 100%;
-    justify-content: space-between;
+    flex-basis: 80%;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 20;
+    /* margin: 100px 100px; */
+    background-color: #3882F6;
+    gap: 16px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    padding: 20px;
+}
+
+.signup {
+ border: 1px solid #F9FAF8;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+footer {
+    color: #F9FAF8;
+    margin: 30px;
 }
