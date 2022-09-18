@@ -1,7 +1,8 @@
 body {
     background-color: blueviolet;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow:wrap;
+    justify-content: center;
 }
 
 header {
@@ -45,6 +46,63 @@ ul {
     width: 500px;
     height: fit-content;
     margin: 30px;
-    ;
+    
+}
+.secondsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
+h2 {
+    align-self:center;
+}
+.item {
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    width: 10%;
+    
+}
+
+
+.koala {
+    width: 70%;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+   
+    width: 100%;
+
+}
+
+.thirdsection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+
+.blue-box {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    margin:0 500px;
+}
+
+.fourthsection {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20;
+}
